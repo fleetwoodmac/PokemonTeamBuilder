@@ -13,7 +13,7 @@
 ## Install
 
 ```sh
-docker build -t namehere
+docker build -t namehere .
 ```
 
 ## Usage

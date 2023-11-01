@@ -144,11 +144,11 @@ To be updated
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/fleetwoodmac/PokemonTeamBuilder/issues). 
+Contributions, issues and feature requests are welcome! Please also feel free to fork and start developing on it more on your own!<br />Feel free to check [issues page](https://github.com/fleetwoodmac/PokemonTeamBuilder/issues). 
 
 ## Show your support
 
-Please feel free to fork this and start developing it more if you want--it's pretty barebones and sorta buggy in its current state. Give it a ⭐️ if you thought it was cool!
+As mentioned, please feel free to fork this and start developing it more if you want--it's pretty barebones and sorta buggy in its current state. Give it a ⭐️ if you thought it was cool!
 
 ## Acknowledgements
 - Streamlit's [documentation](https://docs.streamlit.io/)

@@ -39,6 +39,7 @@
 <p align='center'>
   <img src=https://github.com/fleetwoodmac/PokemonTeamBuilder/assets/69140036/6977e517-7d88-4b55-8b80-ea6c1b2c1b49>
 </p>
+
 ### Example Teamslot
 <p align='center'>
   <img src=https://github.com/fleetwoodmac/PokemonTeamBuilder/assets/69140036/9f629b27-c88d-46ec-b0b7-fa6819f8d3af>

@@ -16,7 +16,7 @@
 - [Images](https://github.com/fleetwoodmac/PokemonTeamBuilder#images)
 - [Preparation/Build Guide](https://github.com/fleetwoodmac/PokemonTeamBuilder#preparation-build-guide)
     - [Using Docker (easiest to run)](https://github.com/fleetwoodmac/PokemonTeamBuilder#using-docker-easiest-to-run)
-    - [Using Python (bit more work))](https://github.com/fleetwoodmac/PokemonTeamBuilder#using-python-bit-more-work)
+    - [Using Python (bit more work)](https://github.com/fleetwoodmac/PokemonTeamBuilder#using-python-bit-more-work)
 - [Usage](https://github.com/fleetwoodmac/PokemonTeamBuilder#usage)
     - [Using Docker](https://github.com/fleetwoodmac/PokemonTeamBuilder#using-docker)
     - [Using Python](https://github.com/fleetwoodmac/PokemonTeamBuilder#using-python)

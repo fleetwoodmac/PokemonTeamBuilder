@@ -160,8 +160,9 @@ To be updated
 To be updated
 
 ## Notes
-**While I do not collect any sort of information, Streamlit collects usage telemetry by default. This was not disabled.**
-If you want to disable this, see Streamlit's documentation on the subject [here](https://docs.streamlit.io/library/advanced-features/configuration#telemetry). 
+- **While I do not collect any sort of information, Streamlit collects usage telemetry by default. This was not disabled.**
+   - If you want to disable this, see Streamlit's documentation on the subject [here](https://docs.streamlit.io/library/advanced-features/configuration#telemetry). 
+
 
 ## Author
 ---

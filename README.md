@@ -10,6 +10,25 @@
 
 ### 🏠 [Homepage](https://github.com/fleetwoodmac/PokemonTeamBuilder)
 
+## Table of contents
+- [Feature List](https://github.com/fleetwoodmac/PokemonTeamBuilder#feature-list)
+- [Software/Resources Used](https://github.com/fleetwoodmac/PokemonTeamBuilder#softwareresources-used)
+- [Images](https://github.com/fleetwoodmac/PokemonTeamBuilder#images)
+- [Preparation/Build Guide](https://github.com/fleetwoodmac/PokemonTeamBuilder#preparation-build-guide)
+    - [Using Docker (easiest to run)](https://github.com/fleetwoodmac/PokemonTeamBuilder#using-docker-easiest-to-run)
+    - [Using Python (bit more work))](https://github.com/fleetwoodmac/PokemonTeamBuilder#using-python-bit-more-work)
+- [Usage](https://github.com/fleetwoodmac/PokemonTeamBuilder#usage)
+    - [Using Docker](https://github.com/fleetwoodmac/PokemonTeamBuilder#using-docker)
+    - [Using Python](https://github.com/fleetwoodmac/PokemonTeamBuilder#using-python)
+- [Remove/Delete Program](https://github.com/fleetwoodmac/PokemonTeamBuilder#removedelete-program)
+    - [Using Docker](https://github.com/fleetwoodmac/PokemonTeamBuilder#using-docker-1)
+    - [Using Python](https://github.com/fleetwoodmac/PokemonTeamBuilder#using-python-1)
+- [Author](https://github.com/fleetwoodmac/PokemonTeamBuilder#author)
+- [Contributing](https://github.com/fleetwoodmac/PokemonTeamBuilder#-contributing)
+- [Show your Support](https://github.com/fleetwoodmac/PokemonTeamBuilder#show-your-support)
+- [Acknowledgements](https://github.com/fleetwoodmac/PokemonTeamBuilder#acknowledgements)
+- [License](https://github.com/fleetwoodmac/PokemonTeamBuilder#-license)
+
 ## Feature List
 ---
 - Functional
@@ -51,7 +70,7 @@
   
 ## Preparation (Build) Guide
 ---
-### Using docker (easiest to run) 
+### Using Docker (easiest to run) 
 1. Install [Docker Desktop](https://www.docker.com/get-started/)
 2. (optional) Install [Git](https://github.com/git-guides/install-git)
 3. Clone this repo to a directory of your choice using the following command:

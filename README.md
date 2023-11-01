@@ -177,10 +177,11 @@ As mentioned, please feel free to fork this and start developing it more if you 
 ---
 - Streamlit's [documentation](https://docs.streamlit.io/)
 - PokeAPI's [documentation](https://pokeapi.co/docs/v2)
+- ZeroMQ's [documentation](https://zeromq.org/languages/python/)
+- Image and misc. resources
     - Kelsey Oshiro's [Team Builder project](https://github.com/kelseymosh/pokemon-team-builder) for type images. [Github](https://github.com/kelseymosh).
     - Bulbapedia for Pokedex image [here](https://archives.bulbagarden.net/media/upload/3/37/RG_Pokédex.png), and move data when not available on PokeAPI.
     - [Smogon Strategy Pokedex](https://www.smogon.com/dex/) for competitive analysis 
-- ZeroMQ's [documentation](https://zeromq.org/languages/python/)
 - Docker resources
     - Isha Terdal's [streamlit app deployment guide](https://medium.com/@ishaterdal/deploying-a-streamlit-app-with-docker-db40a8dec84f). Their [Github](https://github.com/ishaterdal).
     - Streamlit's [Docker guide](https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker)

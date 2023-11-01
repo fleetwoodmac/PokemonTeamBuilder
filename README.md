@@ -23,6 +23,7 @@
 - [Remove/Delete Program](https://github.com/fleetwoodmac/PokemonTeamBuilder#removedelete-program)
     - [Using Docker](https://github.com/fleetwoodmac/PokemonTeamBuilder#using-docker-1)
     - [Using Python](https://github.com/fleetwoodmac/PokemonTeamBuilder#using-python-1)
+- [Notes](https://github.com/fleetwoodmac/PokemonTeamBuilder#notes)
 - [Author](https://github.com/fleetwoodmac/PokemonTeamBuilder#author)
 - [Contributing](https://github.com/fleetwoodmac/PokemonTeamBuilder#-contributing)
 - [Show your Support](https://github.com/fleetwoodmac/PokemonTeamBuilder#show-your-support)
@@ -157,6 +158,10 @@ To be updated
 
 ### Using Python 
 To be updated
+
+## Notes
+**While I do not collect any sort of information, Streamlit collects usage telemetry by default. This was not disabled.**
+If you want to disable this, see Streamlit's documentation on the subject [here](https://docs.streamlit.io/library/advanced-features/configuration#telemetry). 
 
 ## Author
 ---

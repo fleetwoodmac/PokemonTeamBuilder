@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> A hacked-together, barebones, locally-(or web)-hosted Pokemon Team Builder app.
+> A hacked-together, barebones, locally-(or web)-hosted Pokemon Team Builder app. Mostly pure Python using Streamlit and PyZMQ.
 
 ### 🏠 [Homepage](https://github.com/fleetwoodmac/PokemonTeamBuilder)
 

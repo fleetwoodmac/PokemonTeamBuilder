@@ -11,6 +11,7 @@
 ### 🏠 [Homepage](https://github.com/fleetwoodmac/PokemonTeamBuilder)
 
 ## Feature List
+---
 - Functional
   - Choose Pokemon
       - Get game desc
@@ -28,6 +29,7 @@
     - tabbed or single page view
 
 ## Software/Resources Used
+---
 - Python 3.10
 - [Streamlit](https://streamlit.io/)
 - [PyZMQ](https://zeromq.org/languages/python/)
@@ -35,6 +37,7 @@
 - [PokeAPI](https://pokeapi.co/)
 
 ## Images
+---
 ### Single Page View
 <p align='center'>
   <img src=https://github.com/fleetwoodmac/PokemonTeamBuilder/assets/69140036/6977e517-7d88-4b55-8b80-ea6c1b2c1b49>
@@ -47,7 +50,7 @@
 
   
 ## Preparation (Build) Guide
-
+---
 ### Using docker (easiest to run) 
 1. Install [Docker Desktop](https://www.docker.com/get-started/)
 2. (optional) Install [Git](https://github.com/git-guides/install-git)
@@ -87,7 +90,7 @@ docker images
 To be updated
 
 ## Usage
-
+---
 ### Using Docker 
 1. **This is if you built the docker image.**
 2. Run the following command
@@ -125,6 +128,7 @@ where ```containername``` is the text from step 4 under NAMES. In the image abov
 To be updated
 
 ## Remove/Delete program
+---
 ### Using Docker 
 1. The easiest way to do this is using Docker Desktop. 
 2. Open Docker Desktop. Make sure any containers running this program are stopped.
@@ -136,21 +140,22 @@ To be updated
 To be updated
 
 ## Author
-
+---
 👤 **fleetwoodmac**
 
 * Website: https://github.com/fleetwoodmac/
 * Github: [@fleetwoodmac](https://github.com/fleetwoodmac)
 
 ## 🤝 Contributing
-
+---
 Contributions, issues and feature requests are welcome! Please also feel free to fork and start developing on it more on your own!<br />Feel free to check [issues page](https://github.com/fleetwoodmac/PokemonTeamBuilder/issues). 
 
 ## Show your support
-
+---
 As mentioned, please feel free to fork this and start developing it more if you want--it's pretty barebones and sorta buggy in its current state. Give it a ⭐️ if you thought it was cool!
 
 ## Acknowledgements
+---
 - Streamlit's [documentation](https://docs.streamlit.io/)
 - PokeAPI's [documentation](https://pokeapi.co/docs/v2)
 - ZeroMQ's [documentation](https://zeromq.org/languages/python/)
@@ -161,7 +166,7 @@ As mentioned, please feel free to fork this and start developing it more if you 
 - kefranagb's [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
 
 ## 📝 License
-
+---
 Copyright © 2023 [fleetwoodmac](https://github.com/fleetwoodmac).<br />
 This project is [MIT](https://opensource.org/license/mit/) licensed.
 

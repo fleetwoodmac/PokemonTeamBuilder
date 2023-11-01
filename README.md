@@ -6,12 +6,38 @@
   </a>
 </p>
 
-> Pokemon Team Builder made with Streamlit and PyZMQ
+> A hacked-together, barebones, locally-(or web)-hosted Pokemon Team Builder app.
 
 ### 🏠 [Homepage](https://github.com/fleetwoodmac/PokemonTeamBuilder)
 
+## Feature List
+- Functional
+  - Choose Pokemon
+      - Get game desc
+      - Get type
+      - Get sprite
+  - Choose Moves
+      - get move desc
+      - get power/acc
+      - get type
+  - Choose Held item
+      - get sprite
+      - get item desc
+  - Get Smogon Dex Analysis Link
+- User
+    - tabbed or single page view
+
+## Software/Resources Used
+- Python 3.10
+- [Streamlit](https://streamlit.io/)
+- [PyZMQ](https://zeromq.org/languages/python/)
+- [Docker](https://www.docker.com/)
+- [PokeAPI](https://pokeapi.co/)
+  
 ## Install
 
+### Using docker
+1. 
 ```sh
 docker build -t namehere .
 ```
@@ -35,7 +61,7 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 ## Show your support
 
-Give a ⭐️ if this project helped you!
+Please feel free to fork this and start developing it more if you want--it's pretty barebones and sorta buggy in its current state. Give it a ⭐️ if you thought it was cool!
 
 ## 📝 License
 

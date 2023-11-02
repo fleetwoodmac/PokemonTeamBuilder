@@ -82,7 +82,7 @@ or by downloading repo as zip file and unzipping to desired to location
 <p align='center'>
   <img src=https://github.com/fleetwoodmac/PokemonTeamBuilder/assets/69140036/a7990b92-6831-469f-bbca-e9bb092b5e58 width='500'>
 </p>
-4. Make sure Docker Desktop is running and that you have space free before proceeding.
+4. Make sure Docker Desktop is running and that you have space free before proceeding.<br \>
 5.  In the root directory of the program, build using the following command:
 
 ```sh

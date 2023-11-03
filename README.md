@@ -162,7 +162,22 @@ To be updated
 ## Notes
 ---
 - **While I do not collect any sort of information, Streamlit collects usage telemetry by default. This is not disabled by default.**
-   - If you want to disable this, see Streamlit's documentation on the subject [here](https://docs.streamlit.io/library/advanced-features/configuration#telemetry). 
+   - If you want to disable this, see Streamlit's documentation on the subject [here](https://docs.streamlit.io/library/advanced-features/configuration#telemetry).
+
+ - Changing the port or address the app runs on
+     - You can change the port as well as the host URL you want to app to run on in the Dockerfile **before you build the image**. Also make sure to change the ```EXPOSE``` line in the Dockerfile if you change the default port.
+  
+ - Deploying as a web-hosted/public instance
+   - I can do a more thorough write-up of how to deploy this as a public instance if there is interest but the general steps are:
+     - Make a docker hub account and create a public repository. Name it whatever you want (ex: ```pokemonteambuilder-demo```). it should display a push command like ```docker push yourdockername/yourreponame```
+     - Build a docker image locally following the steps in the build guide. Make sure that your image name matches your repo name, i.e for the image name/tag use ```yourdockerusername/yourimagename``` (or ```yourdockerusername/yourimagename:version``` where version is something like ```latest``` if you are actively tracking version history).
+     - if you are compiling on an arm based machine like an M1 Mac, make sure you build an x86 version of the image (see Jaimyn Mayer's guide linked below).
+     - push to docker hub using the docker push command you got earlier
+     - sign up for the free tier of a hosting service like oracle cloud, google cloud run, etc.
+     - I used google cloud run, so for that, once you are logged in, create a new project and name it whatever, then go to Google Cloud Run, hit create new service
+     - for the container URL just put in your docker hub repo name, i.e ```yourdockerusername/yourreponame```. It should automatically pull the docker image from there (again, important that it is a public repo)
+     - change the container port to 8501 (or whatever you changed it to in the dockerfile)
+     - create the service, and it should eventually give you a URL. Go to that URL and you should have a public instance running.
 
 
 ## Author
@@ -192,6 +207,8 @@ As mentioned, please feel free to fork this and start developing it more if you 
 - Docker resources
     - Isha Terdal's [streamlit app deployment guide](https://medium.com/@ishaterdal/deploying-a-streamlit-app-with-docker-db40a8dec84f). Their [Github](https://github.com/ishaterdal).
     - Streamlit's [Docker guide](https://docs.streamlit.io/knowledge-base/tutorials/deploy/docker)
+    - Jaimyn Mayer's [guide](https://blog.jaimyn.dev/how-to-build-multi-architecture-docker-images-on-an-m1-mac/) on how to build x86 and arm64 on M1 Macs. Their [Github](https://github.com/jabelone)
+    - FayZ676's [guide](https://medium.com/@faizififita1/how-to-deploy-your-streamlit-web-app-to-google-cloud-run-ba776487c5fe) on deploying Streamlit docker images to Google Cloude Run.
 - Carlos D Serrano's Streamlit [repeatable items guide](https://medium.com/streamlit/creating-repeatable-items-in-streamlit-cb8b6264e1e6). Their [Github](https://github.com/sqlinsights) (I think?).
 - kefranagb's [readme-md-generator](https://github.com/kefranabg/readme-md-generator)
 

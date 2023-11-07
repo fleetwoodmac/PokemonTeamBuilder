@@ -179,6 +179,9 @@ To be updated
      - change the container port to 8501 (or whatever you changed it to in the dockerfile)
      - create the service, and it should eventually give you a URL. Go to that URL and you should have a public instance running.
 
+- Note on debugging seg faults and pyarrow
+  - one of Streamlit's dependencies is pyarrow, and as of the time of this readme being updated, pyarrow has been quite finicky. If you are getting segfaults or weird errors running Streamlit, it may be due to pyarrow. As of this update to the readme, the current version of pyarrow is 14.0.0. After installing streamlit, manually overwriting pyarrow with an older version (12.0.1 for example) made the app run perfectly after experiencing some seg faults while running the ```streamlit run``` command. 
+
 
 ## Author
 ---
